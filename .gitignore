@@ -5,7 +5,11 @@
 /tmp
 
 # dependencies
-/node_modules
+!node_modules/
+node_modules/*
+!node_modules/semantic-ui-less/
+node_modules/semantic-ui-less/*
+!node_modules/semantic-ui-less/theme.config
 /bower_components
 
 # misc
@@ -15,3 +19,5 @@
 /libpeerconnection.log
 npm-debug.log
 testem.log
+
+# semantic ui theme.config
